@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Montserrat:ital,wght@0,400;1,700&family=Sansita+Swashed:wght@300;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  background-image: url('C:/HTML_CSS/imag/imag.jpg');
+  background-size: cover;
+  height: 700px;
+}
+.menu_container_ul{
+  list-style: none;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  position: fixed;
+}
+.menu_container_ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.menu_container_ul li a{
+  text-decoration: none;
+}
+.menu_container_ul li a:hover .a_line{
+  border-bottom: 3px solid green;
+  width: 85%;
+}
+.a_text{
+  color: white;
+}
+.logo{
+  float: left;
+  position: absolute;
+  left: 48%;
+  position: fixed;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+.logo a:hover{
+  color: #e3e0d8;
+  transition: 0.5s all ease;
+}
+.search_container{
+  float: right;
+  margin-right: 200px;
+  margin-top: 5px;
+}
+.search_container input{
+  padding: 5px 0 5px 10px;
+  border-radius: 20px;
+  border: white;
+  opacity: 40%;
+  position: fixed;
+}
+.search_container input:hover{
+  opacity: 70%;
+}
+.middle_container{
+  float: left;
+  margin-left: 28%;
+  margin-bottom: 50%;
+  text-align: center;
+  margin-top: 250px;
+}
+.h1_container{
+  color: white;
+  font-size: 1.7em;
+  margin-bottom: 30px;
+}
+.button{
+  text-decoration: none;
+}
+.button div{
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  width: 150px;
+  position: relative;
+  left: 35%;
+  border-radius: 20px;
+  font-size: 1.3em;
+  opacity: 80%;
+}
+.button div:hover{
+  background: #09eb2f;
+  transition: 0.5s;
+}
+.scroll_button{
+  
+
+
+}
+.first_section{
+  background: white;
+  height: 500px
+}
+.second_section{
+  background: silver;
+  height: 900px;
+}
+.thrid_section{
+  background: yellow;
+  height: 400px;
+}
+.fourth_section{
+  background: #32a88b;
+  height: 500px;
+}
+.fifth_section{
+  background: #2f7527;
+  height: 400px;
+}
