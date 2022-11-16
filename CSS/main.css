@@ -6,9 +6,9 @@
 .wrapper{
   background-image: url('C:/HTML_CSS/imag/imag.jpg');
   background-size: cover;
-  height: 700px;
+  height: 650px;
 }
-.menu_container_ul{
+.menu_container_ul {
   list-style: none;
   display: block;
   float: left;
@@ -92,17 +92,102 @@
   transition: 0.5s;
 }
 .scroll_button{
-  
-
-
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin-left: -27%;
+  margin-top: 600px;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 20px;
+  opacity: 30%;
+}
+.scroll_button:hover{
+  opacity: 100%;
+  transition: 0.5s;
+}
+.scroll_img{
+  background-image: url('C:/HTML_CSS/imag/strila.png');
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
 }
 .first_section{
   background: white;
   height: 500px
 }
+.first_content_container, .second_title{
+  position: absolute;
+  left: 33%;
+  text-align: center;
+  margin-top: 30px;
+}
+.first_title{
+  font-size: 1.5em;
+  margin-bottom: 3px;
+}
+.first_line{
+  border-top: 2px solid black;
+  margin-bottom: 30px;
+  width: 40px;
+  margin-left: 45%;
+}
+.first_item_container{
+  display: flex;
+  float: left;
+  margin-top: -250px;
+  width: 100%;
+}
+.first_item_bocks{
+  position: relative;
+  left: auto;
+  right: auto;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin-left: 13%;
+}
+.first_item_title{
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.first_item_content{
+  width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.first_item_logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 25%;
+}
+.button_block{
+  display: inline;
+  margin-left: -40px;
+}
+.first_item_container a{
+  float: left;
+  margin-left: 5%;
+}
 .second_section{
   background: silver;
   height: 900px;
+}
+.second_header{
+  background: red;
+}
+.second_item{
+  /* background: blue; */
+}
+.second_item{
+  display: flow-root;
+  flex-direction: column;
+  align-items: center;
+}
+.item_photo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .thrid_section{
   background: yellow;
